@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 05</title>
+    <style>
+      p {
+        margin: 0px 0px;
+      }
+
+      .tahoma-text {
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .deals-text {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .deals-sales-text {
+        color: red;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: italic;
+      }
+
+      .course-div {
+        font-family: Verdana;
+        margin-bottom: 30px;
+      }
+
+      div.course-div > p.course-text {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      div.course-div > p.course-beginner-text {
+        color: gray;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      div.course-div > p.course-beginner-desc-text {
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+
+      div.course-div > button.get-started-button {
+        font-family: inherit;
+        background-color: green;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+
+      .shopping-div {
+        font-family: Arial;
+        margin-bottom: 30px;
+      }
+
+      div.shopping-div > p.shopping-title-text {
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      div.shopping-div > p.shopping-desc-text {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      div.shopping-div > p.shopping-learn-more-text {
+        font-size: 13px;
+        text-align: center;
+        color: rgb(7, 7, 182);
+        cursor: pointer;
+      }
+
+      div.shopping-div > p.shopping-learn-more-text:hover {
+        text-decoration: underline;
+      }
+
+      .new-mac-div {
+        font-family: Arial;
+        margin-bottom: 30px;
+      }
+
+      div.new-mac-div > p.new-mac-title-text {
+        color: red;
+        margin-bottom: 10px;
+        font-size: 11px;
+        text-align: center;
+      }
+
+      div.new-mac-div > p.new-mac-subtitle-text {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      div.new-mac-div > p.new-mac-desc-text {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      div.new-mac-div > p.new-mac-price-text {
+        margin-bottom: 10px;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      div.new-mac-div > div.new-mac-buy-button-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div.new-mac-div > div.new-mac-buy-button-div > button.new-mac-buy-button {
+        font-size: 13px;
+        background-color: blue;
+        color: white;
+        width: 45px;
+        border: none;
+        border-radius: 14px;
+        padding: 4px 4px;
+        cursor: pointer;
+      }
+
+      .dow-jones-div {
+        font-family: Arial;
+        margin-bottom: 30px;
+      }
+
+      div.dow-jones-div > p.dow-jones-title-text {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      div.dow-jones-div > p.dow-jones-today-margin-text {
+        font-size: 16px;
+        color: green;
+        margin-bottom: 10px;
+      }
+      
+      div.dow-jones-div > p.dow-jones-title-text > span.dow-jones-title-currency-text {
+        font-size: 16px;
+        color: gray;
+        margin-left: 10px;
+      }
+
+      div.dow-jones-div > p.dow-jones-time-text {
+        font-size: 16px;
+        color: gray;
+      }
+
+      div.dow-jones-div > p.dow-jones-time-text > span.dow-jones-time-margin-text {
+        font-size: 16px;
+        color: red;
+      }
+
+      div.dow-jones-div > p.dow-jones-time-text > span.dow-jones-time-margin-percentage-text {
+        font-size: 16px;
+        color: red;
+      }
+
+      .tweet-div {
+        font-family: Arial;
+        margin-bottom: 30px;
+      }
+
+      .tweet-div > p.tweet-title-text {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .tweet-div > p.tweet-title-text > span.tweet-handle-text {
+        font-size: 18px;
+        color: gray;
+        font-weight: normal;
+      }
+
+      .tweet-div > p.tweet-desc-text {
+        font-size: 18px;
+      }
+
+      .tweet-div > p.tweet-desc-text > span.tweet-desc-handle-text {
+        font-size: 18px;
+        color: blue;
+        font-weight: normal;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p class="tahoma-text">This is Tahoma Font</p>
+
+    <p class="deals-text">Biggest Deals of the Year!
+      <br>
+      <span class="deals-sales-text">Sales end Tuesday</span>
+      </br>
+    </p>
+
+    <div class="course-div">
+      <p class="course-text">HTML CSS Course</p>
+      <p class="course-beginner-text">Beginner to Pro</p>
+      <p class="course-beginner-desc-text">In this course, we'll learn the skills<br>you need to become a developer.</br></p>
+      <button class="get-started-button">Get Started</button>
+    </div>
+
+    <div class="shopping-div">
+      <p class="shopping-title-text">Shopping for your business?</p>
+      <p class="shopping-desc-text">See how Apple at Work can help.</p>
+      <p class="shopping-learn-more-text">Learn more &#62;</p>
+    </div>
+
+    <div class="new-mac-div">
+      <p class="new-mac-title-text">New</p>
+      <p class="new-mac-subtitle-text">MacBook Pro</p>
+      <p class="new-mac-desc-text">Supercharged for pros.</p>
+      <p class="new-mac-price-text">From $1999</p>
+      <div class="new-mac-buy-button-div">
+        <button class="new-mac-buy-button">Buy</button>
+      </div>
+    </div>
+
+    <div class="dow-jones-div">
+      <p class="dow-jones-title-text">1,049.61
+        <span class="dow-jones-title-currency-text">USD</span>
+      </p>
+      <p class="dow-jones-today-margin-text">+18.05(1.75%) today</p>
+      <p class="dow-jones-time-text">After hours 1,048.00
+        <span class="dow-jones-time-margin-text">-1.61</span>
+        <span class="dow-jones-time-margin-percentage-text">(0.15%)</span>
+      </p>
+    </div>
+
+    <div class="tweet-div">
+      <p class="tweet-title-text">freeCodeCamp.org
+        <span class="tweet-handle-text">@freeCodeCamp</span>
+        <span class="tweet-handle-text">1h</span>
+      </p>
+      <p class="tweet-desc-text">
+        As a web developer, you'll want to make your projects easy to use and navigate around.
+        <br>
+          <br>Here
+            <span class="tweet-desc-handle-text">@chp_it</span>
+            outlines the top skills new developers should have.
+          </br>
+        </br>
+      </p>
+    </div>
+
+  </body>
+</html>
