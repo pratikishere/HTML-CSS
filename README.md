@@ -57,3 +57,13 @@ In above syntax href and target are called HTML Attribute. It modifies how an el
 ```
 
 The above code is style defined for tweet-button. :hover and :active are called pseudo style. trasition can be applied to more than 1 properties.
+
+### Note: <p> by default, come with margin at top and bottom
+
+### What is CSS Specificity?
+
+[CSS Specificity](https://www.w3schools.com/css/css_specificity.asp)
+
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+
+Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
