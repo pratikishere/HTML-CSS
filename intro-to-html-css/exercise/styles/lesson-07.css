@@ -1,0 +1,23 @@
+.cat-border-round-image {
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.cat-square-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin: 10px 10px;
+}
+
+.cat-round-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin: 10px 10px;
+  border-radius: 100px;
+}
