@@ -67,3 +67,12 @@ The above code is style defined for tweet-button. :hover and :active are called 
 If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
 
 Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+
+### What is void element?
+
+A void element is an element whose content model never allows it to have contents under any circumstances. Void elements can have attributes. The following is a complete list of the void elements in HTML :
+
+| area | base | br | col |
+| command | embed | hr | img |
+| input | keygen | link | meta |
+| param | source | track | wbr. |
