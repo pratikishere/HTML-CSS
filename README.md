@@ -83,10 +83,6 @@ A void element is an element whose content model never allows it to have content
 
 The display property specifies the display behavior (the type of rendering box) of an element.
 
-### The display: inline value
-
-An inline element does not start on a new line and it only takes up as much width as necessary. The <span> element is an inline container used to mark up a part of a text, or a part of a document.
-
 ### The display: block value
 
 A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. A block-level element always takes up the full width available (stretches out to the left and right as far as it can). Two commonly used block elements are: <p> and <div>
@@ -94,3 +90,7 @@ A block-level element always starts on a new line, and the browsers automaticall
 ### The display: inline-block value
 
 Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
+
+### The display: inline value
+
+An inline element does not start on a new line and it only takes up as much width as necessary. The <span> element is an inline container used to mark up a part of a text, or a part of a document.
