@@ -1,0 +1,129 @@
+.two-texbox-div {
+  margin-bottom: 30px;
+}
+
+.two-texbox-input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.customer-support-div {
+  margin-bottom: 30px;
+}
+
+.customer-support-text {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-div {
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.google-image {
+  width: 200px;
+  display: block;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
+.google-input {
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form-div {
+  margin-bottom: 30px;
+}
+
+.signup-form-div > input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.signup-form-div > input.first-name {
+  width: 132px;
+}
+
+.signup-form-div > input.last-name {
+  width: 132px;
+}
+
+.signup-form-div > input.email {
+  display: block;
+  width: 300px;
+}
+
+.signup-form-div > button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 334px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.uber-request-ride-div > input {
+  display: block;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.uber-request-ride-div > p {
+  font-family: Arial;
+}
+
+.uber-request-ride-div > input.destination-textbox {
+  margin-bottom: 35px;
+}
+
+.uber-request-ride-div > button.request-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.uber-request-ride-div > button.schedule-button {
+  background-color: rgb(240, 240, 240);
+  color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
