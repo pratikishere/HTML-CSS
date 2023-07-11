@@ -1,0 +1,145 @@
+div.red-div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+}
+
+div.green-div {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 10px 10px;
+}
+
+div.border-div {
+  border: 1px solid lightgray;
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+div.border-div > p.border-title {
+  margin-bottom: 10px;
+}
+
+.youtube-music-div {
+  background-color: rgb(33, 33, 33);
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+div.youtube-music-div > p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.youtube-music-div > p.title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+div.youtube-music-div > p.subtitle {
+  color: rgb(160, 160, 160);
+}
+
+.card-main-div {
+  margin-bottom: 30px;
+}
+
+.card-div {
+  margin: 8px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+div.card-main-div > div.card-div > img.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+div.card-main-div > div.card-div > p {
+  margin: 0px 0px;
+}
+
+div.card-main-div > div.card-div > p.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+div.card-main-div > div.card-div > p.subtitle {
+  font-size: 13px;
+  margin-left: 8px;
+  margin-bottom: 12px;
+  color: rgb(100, 100, 100);
+}
+
+div.card-main-div > div.card-div > button.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+div.card-main-div > div.card-div > button.add-friend-button:hover {
+  opacity: 0.7;
+}
+
+div.card-main-div > div.card-div > button.add-friend-button:active {
+  opacity: 0.5;
+}
+
+.google-search-div {
+  text-align: center;
+}
+
+.google-search-div > div > img.google-image {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.google-search-div > div > input.google-search-input {
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.google-search-div > div > button.google-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.google-search-div > div > button.search-button {
+  margin-right: 10px;
+  cursor: pointer;
+}
