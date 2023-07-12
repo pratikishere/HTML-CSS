@@ -94,3 +94,12 @@ Displays an element as an inline-level block container. The element itself is fo
 ### The display: inline value
 
 An inline element does not start on a new line and it only takes up as much width as necessary. The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+
+```
+Note:
+It is tricky o make image center in div horizontally or vertically. [how-to-center-an-image-in-a-div-css](https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/) This link explains differnt tricks and methods to make image in center.
+
+[CSS position method](https://www.freecodecamp.org/news/css-position-property-explained/)
+
+[flexbox method](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
+```
