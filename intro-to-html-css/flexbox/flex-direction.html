@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Direction</title>
+    <style>
+      .container-1 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
+        margin-bottom: 10px;
+        gap: 10px;
+      }
+
+      .container-2 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        border: 1px solid red;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .container-3 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        gap: 2px;
+        margin-bottom: 10px;
+      }
+
+      .container-4 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column-reverse;
+        border: 1px solid red;
+        gap: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-1">
+        <div>Home</div>
+        <div>Contacts</div>
+        <div>About us</div>
+      </div>
+
+      <div class="container-2">
+        <div>Home</div>
+        <div>Contacts</div>
+        <div>About us</div>
+      </div>
+
+      <div class="container-3">
+        <div>Home</div>
+        <div>Contacts</div>
+        <div>About us</div>
+      </div>
+
+      <div class="container-4">
+        <div>Home</div>
+        <div>Contacts</div>
+        <div>About us</div>
+      </div>
+    </div>
+  </body>
+</html>
