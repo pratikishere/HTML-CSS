@@ -18,8 +18,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   background-color: azure;
-  text-align: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
