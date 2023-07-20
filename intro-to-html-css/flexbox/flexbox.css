@@ -20,8 +20,8 @@ body {
   justify-content: center;
   align-content: center;
   background-color: azure;
-  flex-wrap: wrap;
   gap: 10px;
+  text-align: center;
 }
 
 
