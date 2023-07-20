@@ -1,0 +1,27 @@
+.container-1, .container-2, .container-3 {
+  display: grid;
+}
+
+.container-1 {
+  grid-template-columns: 200px 75px;
+  margin-bottom: 20px;
+}
+
+.container-2 {
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 20px;
+}
+
+.container-3 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.div-1, .div-3, .div-5 {
+  background-color: lightblue;
+}
+
+.div-2, .div-4, .div-6, .div-7, .div-8, .div-9, .div-10, .div-11, .div-12, .div-13 {
+  background-color: lightpink;
+}
