@@ -37,15 +37,9 @@ p {
   margin-right: 15px;
 }
 
-.channel-picture {
-  width: 50px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.video-info {
-  width: 200px;
-  display: inline-block;
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
