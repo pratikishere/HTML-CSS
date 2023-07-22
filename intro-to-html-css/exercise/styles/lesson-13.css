@@ -1,0 +1,178 @@
+body {
+  padding-bottom: 500px;
+}
+
+.container-1, .container-2 {
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.div-1 {
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-2 {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.div-1-item {
+  background-color: black;
+  color: white;
+}
+
+.div-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-3-item2, .div-3-item3 {
+  background-color: black;
+  color: white;
+}
+
+.gmail-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: Arial;
+  margin-bottom: 30px;
+}
+
+.gmail-header {
+  color:rgb(120, 120, 120);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.gmail-body {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.left-section {
+  margin-right: 10px;
+}
+
+.cat-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.title-section > div.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-section > div.time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: rgb(120, 120, 120);
+}
+
+.tweet {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+.profile-picture-column {
+  margin-right: 10px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.tweet-column {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.tweet-author {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.tweet-author-handle {
+  color: rgb(111, 111, 111);
+}
+
+.tweet-content {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.video-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-info-column {
+  flex: 1;
+}
+
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 22px;
+}
