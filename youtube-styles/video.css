@@ -38,4 +38,18 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 4px;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
 }
