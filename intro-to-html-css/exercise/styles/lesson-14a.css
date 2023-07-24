@@ -1,0 +1,130 @@
+body {
+  height: 2000px;
+}
+
+.header {
+  height: 50px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+
+.header-left-section {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.cat-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat-name {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: 'monospace';
+  font-weight: bold;
+}
+
+.header-right-section {
+  margin-right: 50px;
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.message-button {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  width: 200px;
+
+  background-color: gray;
+}
+
+.profile-pictures-list {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  width: 70px;
+
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+
+  object-fit: cover;
+  object-position: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.sidebar2 {
+  background-color: rgb(55, 55, 55);
+  position: fixed;
+  left: 70px;
+  top: 50px;
+  bottom: 0;
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sidebar2-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebar2-name {
+  color: white;
+  font-size: 14px;
+}
+
+.sidebar2-create-new {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.sidebar2-channel {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+}
